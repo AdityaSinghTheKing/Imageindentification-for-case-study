@@ -1,0 +1,58 @@
+body{
+    font-family:"Oswald";
+    background-color:lightblue;
+}
+.headerdiv{
+    background-color:lightblue;
+    color:lightsalmon;
+}
+.headerdiv img{
+    width:100px;
+    height:100px;
+}
+.maindiv{
+    background-color:lightseagreen;
+    padding : 10px;;
+    margin-top:15px;
+    border: 3px solid white;    
+}
+.maindiv label{
+    width: 300px;
+    padding:10px;
+    margin-bottom:0px;
+    box-shadow:5px 10px 15px blue;
+}
+#camera , #result{
+    width:300px;
+    height:300px;
+    border:black 1px solid;
+    
+}
+.maindiv button{
+    
+    width:300px;
+    box-shadow:blue 5px 10px 15px;
+}
+.footerdiv{
+    margin-bottom: 50px;
+}
+.footerdiv h4{
+    background-color:white;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 18px lightcoral;
+}
+.footerdiv img {
+    width: 70px;
+
+}
+.coprightfooter{
+    position: fixed;
+    bottom: 0;
+    color:black ;
+    width: 100%;
+    background-color:lightgrey ;
+    line-height: 3;
+    text-align: center;
+
+}

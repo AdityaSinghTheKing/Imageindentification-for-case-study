@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>Mobilenet</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js" target="_blank"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=style.css>
+</head>
+
+<body>
+    <center>
+        <div class="col-xs-12 headerdiv">
+            <h2>Image Identification app
+                <img src="magnifying glass.gif">
+            </h2>
+        </div>
+        <div class="col-sm-6 col-xs-12 maindiv">
+            <label>Webcam view - </label>
+        
+        <br>
+        <br>
+        <div id="camera"></div>
+        <button type="button" onclick="TakeSnapshot()" class="btn btn-warning">TakeSnapshot</button></div>
+        <div class="col-sm-6 col-xs-12 maindiv">
+            <label>Snapshot view</label>
+            <br>
+            <br>
+            <div id="result"></div>
+            <button type="button" onclick="Check()" class="btn btn-warning">Identify Image</button>
+        </div>
+        <br>
+        <div class="col-xs-12 footerdiv">
+            <h4 class="col-sm-6 col-xs-12">  <img src="Bulb image.gif"><span id="resultobjectname"></span>  </h4>
+            
+        </div>
+        <div class="coprightfooter">Developed by Aditya Singh</div>
+
+    </center>
+
+</body>
+<script src="main.js"></script>
+
+
+
+</html>
